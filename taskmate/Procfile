@@ -1,0 +1,1 @@
+web: gunicorn tmate-pro.wsgi
