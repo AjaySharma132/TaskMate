@@ -1,1 +1,1 @@
-web: gunicorn tmate-pro.wsgi
+web: gunicorn taskmate.wsgi --log-file -
