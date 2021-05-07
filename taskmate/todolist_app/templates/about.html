@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  <title>About Us-TaskMate</title>
+{% endblock title %}
+
+
+{% block content %}
+  <main>
+
+
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="{% static 'img/logo3.svg' %}" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold">About Us</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Hi! I am Ajay Sharma, a second year Computer Science Engineering student📚. <br/> I am a full stack web developer and an Open Source enthusiast, who loves solving real world problems👨‍💻. <br/> Currently, I am learning everything😂. I also write blog posts in my spare time✍.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            {% comment %} <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> {% endcomment %}
+          </div>
+        </div>
+      </div>
+
+        
+
+
+      
+    </main>
+{% endblock content %}
